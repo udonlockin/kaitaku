@@ -1,0 +1,48 @@
+<div class='main'>
+  <div class='side_ber'>
+    
+  </div>
+  <div class='stores'>
+    <div class='stores-posts'>
+      <div class='stores-post'>
+        <div class='stores-post__left'>
+          <%= image_tag 'himawari.jpg'%>
+        </div>
+        <div class='stores-post__right'>
+          <div class='stores-post__title'>
+            udon
+          </div>
+          <div class='stores-post__info'>
+            うどんやです
+          </div>
+        </div>
+      </div>
+      <div class='stores-post'>
+        <div class='stores-post__left'>
+          <%= image_tag 'himawari.jpg'%>
+        </div>
+        <div class='stores-post__right'>
+          <div class='stores-post__title'>
+            udon
+          </div>
+          <div class='stores-post__info'>
+            うどんやです
+          </div>
+        </div>
+      </div>
+      <div class='stores-post'>
+        <div class='stores-post__left'>
+          <%= image_tag 'himawari.jpg'%>
+        </div>
+        <div class='stores-post__right'>
+          <div class='stores-post__title'>
+            udon
+          </div>
+          <div class='stores-post__info'>
+            うどんやです
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
