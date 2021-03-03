@@ -1,0 +1,11 @@
+<div class='main'></div>
+<%= form_with model:@report, url:"/stores", method: :post, local: true do |f| %>
+  <div class='info'>このレポートのタイトルは？</div>
+  <%= f.text_field :title %>
+  <div class='info'>あなたが思うこのお店のいいところは？</div>
+  <%= f.text_field :good_point %>
+  <div class='info'>どんなお店だった？</div>
+  <%= f.text_area :detail %>
+  <%= f.text_field :image, placeholder: "Image Url" %>
+  <%= f.submit '投稿する' %>
+<% end %>
