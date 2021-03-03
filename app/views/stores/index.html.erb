@@ -1,25 +1,30 @@
-<div class='main'>
-  <div class='top-content'></div>
-    <div class='stores'>
-      <div class='stores-posts'>
-        <div class='stores-post'>
-        </div>
-        <div class='stores-post'>
-        </div>
-        <div class='stores-post'>
-        </div>
-        <div class='stores-post'>
-        </div>
-        <div class='stores-post'>
-        </div>
-        <div class='stores-post'>
-        </div>
-        <div class='stores-post'>
-        </div>
-        <div class='stores-post'>
-        </div>
-        <div class='stores-post'>
-        </div>
+<div class='top-content'>
+  <%= image_tag "top.jpg"%>
+</div>
+  <div class='stores'>
+    <div class='stores-posts'>
+      <%@reports.each do |report|%>
+      <div class='stores-post'>
+        <%= link_to store_path(report) do%>
+        <%= image_tag report.image%>
+      <%end%>
       </div>
-  </div>
+      <%end%>
+      <%# <div class='stores-post'>
+      </div>
+      <div class='stores-post'>
+      </div>
+      <div class='stores-post'>
+      </div>
+      <div class='stores-post'>
+      </div>
+      <div class='stores-post'>
+      </div>
+      <div class='stores-post'>
+      </div>
+      <div class='stores-post'>
+      </div>
+      <div class='stores-post'>
+      </div> %>
+    </div>
 </div>
